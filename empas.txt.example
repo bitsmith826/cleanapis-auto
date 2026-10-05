@@ -1,0 +1,6 @@
+# Format: email|password (satu akun per baris, # = komentar)
+# Contoh:
+# budi@gmail.com|sandi123
+# sari@yahoo.com|sandi456
+contoh1@gmail.com|password123
+contoh2@gmail.com|password456

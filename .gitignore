@@ -1,0 +1,20 @@
+# kredensial & data
+.env
+empas.txt
+keys.txt
+result.txt
+result.txt.bak
+batch2.log
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+scratch/
+
+# browser cache
+.camoufox/
+logs/
+cleanapis-auto/
