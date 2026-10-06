@@ -475,7 +475,7 @@ def main() -> None:
     try:
         _log_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logs")
         os.makedirs(_log_dir, exist_ok=True)
-        _log_path = os.path.join(_log_dir, f"batch-{time.strftime("%Y-%m-%d")}.log")
+        _log_path = os.path.join(_log_dir, f"batch-{time.strftime('%Y-%m-%d')}.log")
         tampilan.atur_log_file(_log_path)
         tampilan.log("INFO", f"log file: {_log_path}")
     except Exception:
